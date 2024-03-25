@@ -19,7 +19,7 @@ function setup() {
 function draw() {
   background(30);
 
-  // fill(noise(x)*255, noise(y)*255, noise(w)*255);
+  fill(noise(x)*255, noise(y)*255, noise(w)*255);
   fill(255,0,0);
   for (let i = 0; i < ballsArray.length; i++) {
   circle(ballsArray[i].x, ballsArray[i].y, ballsArray[i].diameter)

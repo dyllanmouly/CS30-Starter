@@ -29,6 +29,6 @@ function draw() {
 
   timeX += 0.01;
   timeY += 0.02; 
-  timeW = timeW+0.00005;
+  timeW = timeW+0.0005;
 }
 
