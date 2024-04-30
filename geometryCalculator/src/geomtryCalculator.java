@@ -8,7 +8,7 @@ public class geomtryCalculator {
             Scanner keys = new Scanner(System.in);
             System.out.println("Would you like to calculate: \n Perimeter of a rectangle, (1) \n Surface area of a cube, (2)  \n Area of a circle (3)?");
             int formulaPicked = keys.nextInt();
-
+ 
             return formulaPicked;
         }
         
