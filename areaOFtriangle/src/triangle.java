@@ -1,7 +1,8 @@
 import java.util.Scanner;
 public class triangle {
     
-    private int side1, side2, side3, area, sideP, perimeter;
+    int side1, side2, side3, perimeter;
+    double area, sideP;
 
     public void triangleSides()
     {
@@ -16,12 +17,13 @@ public class triangle {
 
     public void triangleMath()
     {
-        perimeter = (side1 + side2 + side3);
+        perimeter = side1 + side2 + side3;
         
-        sideP = (perimeter / 2);
+        sideP = perimeter / 2.0;
     
-        area = (int) (Math.sqrt(sideP * (sideP - side1) * (sideP - side2) * (sideP - side3))) ;
-        System.out.println(area);
+        area = sideP * (sideP - side1) * (sideP - side2) * (sideP - side3);
+        area = Math.sqrt(area);
+        System.out.println("The area is: " + area);
     }
 
 }
