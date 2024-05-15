@@ -5,6 +5,6 @@ public class coolNumbersRunner {
         coolNumbers run = new coolNumbers();
         
         run.CoolNum(0);
-        //run.countCoolNumbers(0);
+        
     }
 }
